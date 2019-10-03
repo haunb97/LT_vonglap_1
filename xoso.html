@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>soxo</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('nhap vao so lon nhat'));
+    let b = parseInt(prompt('nhap vao so nho nhat'));
+    let xoso = Math.floor(Math.random()*(a-b)+b);
+    for(let i=0 ;i<3;i++){
+        let num = prompt('nhap vao so ban chon')
+        if (num ==xoso){alert('ban da chon dung')
+        i=3}
+    else if (num < xoso){alert('so ban chon nho hon so dung')}
+    else if (num >xoso){alert('so ban chon lon hon so dung')}
+
+    }
+</script>
+</body>
+</html>
