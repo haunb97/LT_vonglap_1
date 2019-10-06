@@ -7,9 +7,16 @@
 <body>
 <script>
     let nhietdo= prompt('nhập vào nhiệt độ hiện tại')
+   while(nhietdo<20){
+        alert('hay tang nhiet do')
+        nhietdo=prompt('nhập vào nhiệt độ hiện tại')
+   }
+    while(nhietdo>100){
+        alert('hay giam nhiet do')
+        nhietdo=prompt('nhập vào nhiệt độ hiện tại')
+    }
 
-        if(nhietdo<20){document.write('hay tang nhiet do')}
-        if(nhietdo>100){document.write('hay giam nhiet do')}
+
 
 </script>
 </body>
